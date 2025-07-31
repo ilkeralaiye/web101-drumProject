@@ -9,7 +9,7 @@ h1 { font-size: clamp(5rem, 12vw, 12rem); }
     align-content: center;
     flex-wrap: wrap;
     height: 60vh;
-    gap: 50px;
+    gap: 38px;
     text-align: center;
 }
 
