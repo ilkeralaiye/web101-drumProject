@@ -1,0 +1,47 @@
+html { background-color: rgb(41, 35, 75);color: white; }
+
+h1 { font-size: clamp(5rem, 12vw, 12rem); }
+
+.project-body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 60vh;
+    gap: 50px;
+    text-align: center;
+}
+
+/* Button Settings */
+.buttons {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(20px, 4vw, 60px);
+}
+
+.button {
+    width: clamp(50px, 10vw, 160px);
+    height: clamp(50px, 10vw, 160px);
+    border-radius: clamp(5px, 1vw, 20px);
+    border: clamp(5px, 1vw, 10px) rgb(41, 35, 75) solid;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.377);
+    color: white;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.button:hover:active { transform: scale(0.90); filter: brightness(0.7); }
+.button:hover { transform: scale(1.05); }
+
+#w-button { background-image: url("./images/tom1.png");background-size: cover; }
+#a-button { background-image: url("./images/tom2.png");background-size: cover; }
+#s-button { background-image: url("./images/tom3.png");background-size: cover; }
+#d-button { background-image: url("./images/tom4.png");background-size: cover; }
+#j-button { background-image: url("./images/snare.png");background-size: cover; }
+#k-button { background-image: url("./images/crash.png");background-size: cover; }
+#l-button { background-image: url("./images/kick.png");background-size: cover; }
+/* Button Settings */
+
+footer { font-size: clamp(1rem, 1.5vw, 1.5rem); }
